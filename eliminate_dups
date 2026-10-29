@@ -1,0 +1,4 @@
+How do you eliminate duplicate values from query results? DISTINCT
+
+SELECT DISTINCT product_category
+FROM sales;
