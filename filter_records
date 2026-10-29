@@ -1,0 +1,5 @@
+How do you filter records in SQL? 
+WHERE
+SELECT * 
+FROM sales
+WHERE amount > 1000;
