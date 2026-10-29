@@ -1,0 +1,8 @@
+What are aggregate functions in SQL? SUM, AVG, COUNT, MIN, MAX
+
+SELECT SUM(amount) AS total_sales,
+       AVG(amount) AS average_sales,
+       COUNT(*) AS total_records,
+       MIN(amount) AS minimum_amount, 
+       MAX(amount) AS maximum_amount
+FROM sales;
