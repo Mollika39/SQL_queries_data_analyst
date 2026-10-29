@@ -1,0 +1,5 @@
+How do you sort data in SQL?  ORDER BY
+
+SELECT * 
+FROM sales
+ORDER BY amount DESC;
