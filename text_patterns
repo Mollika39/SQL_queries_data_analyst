@@ -1,0 +1,7 @@
+How do you search for text patterns in SQL?
+- Table: customers
+- Columns: customer_name, email
+
+SELECT customer_name, email
+FROM customers
+WHERE customer_name LIKE '%Sharma';
