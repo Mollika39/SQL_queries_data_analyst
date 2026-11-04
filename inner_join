@@ -1,0 +1,9 @@
+What is an INNER JOIN?
+- Tables: Employees, Departments
+- Columns:
+  - Employees: name, dept_id
+  - Departments: dept_id, dept_name
+SELECT name, dept_id, dept_name
+FROM employees e
+INNER JOIN departments d
+ON e.dept_id = d.dept_id;
