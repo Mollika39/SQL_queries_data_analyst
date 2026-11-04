@@ -1,0 +1,9 @@
+What are constraints in SQL?
+- Table: Employees
+- Columns: employee_ID, email, salary
+PRIMARY KEY, FOREIGN KEY, UNIQUE, NOT NULL, CHECK, DEFAULT
+CREATE TABLE employees(
+	employee_ID INT PRIMARY KEY,
+	email VARCHAR(50) UNIQUE
+	salary DECIMAL(10,2) CHECK (salary >= 0)
+	);
