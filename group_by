@@ -1,0 +1,7 @@
+What is the GROUP BY clause and why is it used?
+- Table: sales
+- Columns: product_category, amount
+SELECT AVG(amount),
+	SUM(amount)
+FROM sales
+GROUP BY product_category;
