@@ -1,0 +1,7 @@
+How do you find rows that have no match in another table?
+
+SELECT c.customer_id, c.customer_name
+FROM customers c
+LEFT JOIN orders o
+ON c.order_id = o.order_id
+WHERE o.order_id IS NULL;
