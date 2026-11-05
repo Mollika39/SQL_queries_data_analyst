@@ -1,0 +1,6 @@
+Use the orders, customers and products tables to retrieve order IDs, customer names and product names for each order.
+
+SELECT o.order_id, c.customer_name, p.product
+FROM orders o
+JOIN customers c ON o.customer_id = c.customer_id
+JOIN product p ON o.product_id = p.product_id;
