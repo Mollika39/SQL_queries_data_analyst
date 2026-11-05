@@ -1,0 +1,6 @@
+Use the customers and orders tables to retrieve all customers and their order IDs, including customers who have not placed any orders.
+
+SELECT c.customer_name, o.order_id
+FROM customers c
+LEFT JOIN orders o 
+ ON c.customer_id = o.customer_id;
