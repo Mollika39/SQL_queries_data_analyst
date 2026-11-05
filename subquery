@@ -1,0 +1,8 @@
+Subquery in SQL? Use the sales table to find products whose sales amount is greater than the average sales amount.
+
+SELECT products, amount
+FROM sales
+WHERE amount > (
+	SELECT AVG(amount)
+	FROM sales
+);
