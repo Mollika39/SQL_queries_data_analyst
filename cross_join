@@ -1,0 +1,5 @@
+CROSS JOIN
+
+SELECT product_name, category_name
+FROM products
+CROSS JOIN categories;
